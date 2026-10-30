@@ -1,3 +1,5 @@
+[![CI/CD Pipeline](https://github.com/SAIF5M/MLOps-Lab2/actions/workflows/ci.yml/badge.svg)](https://github.com/SAIF5M/MLOps-Lab2/actions/workflows/ci.yml)
+
 # MLOps Lab 2
 
 This repository contains the complete implementation and production-ready code for **Lab 2** of the MLOps course. It showcases a modern machine learning operations pipeline featuring a FastAPI web service, containerization using Docker, automated unit testing, and GitHub Actions for CI/CD workflows.

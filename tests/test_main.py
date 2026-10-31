@@ -7,7 +7,7 @@ from src.app.main import app, model
 
 client = TestClient(app)
 
-# 1. اختبار تحميل النموذج (Model loads)
+# اختبار تحميل النموذج (Model loads)
 def test_model_loaded():
     assert model is not None, "Model should be successfully loaded"
 

@@ -32,6 +32,8 @@ def health_check():
 
 @app.post("/predict")
 def predict(input_data: PredictionInput):
+    if not input_data.features:
+        raise HTTPException(status_code=422, detail="Features list cannot be empty")
     try:
         data = np.array([input_data.features])
         prediction = model.predict(data)
